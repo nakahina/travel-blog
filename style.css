@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*共通部分*/
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'open Sans', sans-serif;
+}
+
+.button-2 {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 7px 18px;
+}
+
+.button-2:hover {
+    color: darkgray;
+}
+
+/*HEADER*/
+header h3 a {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 4%;
+    background-color: white;
+    position: fixed;
+}
+
+
+.header-nav {
+    display: flex; 
+}
+
+.header-nav li {
+    margin-left: 30px;
+}
+
+.header-nav .home {
+    color: black;
+}
+
+
+
+.header-nav a:hover {
+    color: darkgray;
+}
+
+
+
+/* home content */
+.home-bg {
+    background-image: url(images/pexels-willian-justen-de-vasconcellos-15829427.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;  /* 固定ヘッダーにコンテンツが隠れないように */
+}
+
+.home-title {
+    text-align: center;
+}
+
+.home-bg h1{
+    color: white;
+    font-family: 'Knewave';
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+
+.button:hover {
+    color: rgba(255, 255, 255, 0.672);
+    border: 2px solid rgba(255, 255, 255, 0.672);
+}
+
+
+/* blog */
+.home-blog {
+    padding: 30px 0; 
+    
+}
+
+.home-blog p {
+    margin: 0;
+    padding: 0;
+  }
+
+.home-blog h2 {
+    margin: 0 -20px 10px -20px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+  }
+  
+.home-blog h3 {
+    margin: 0 -15px 10px -15px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+  }
+  
+.post {
+    width: 75%; 
+    margin: 0 auto 15px auto;
+    padding: 0 20px 20px 20px; 
+    border: 2px solid black;
+  }
+  
+.comment {
+    margin: 10px 0;
+    padding: 0 15px 15px 15px; 
+    border: 2px solid black;
+  }
+  
+.date-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*post, comment add page*/
+.add-content {
+    padding-top: 150px; /* 固定ヘッダーにコンテンツが隠れないように */
+    min-height: 100vh;  /* 画面いっぱいの高さ */
+    
+}
