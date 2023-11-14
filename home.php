@@ -13,7 +13,7 @@
             <h3><a href="home.html">LOGO</a></h3>
             <nav>
                 <ul class="header-nav">
-                    <li><a class="home" href="home.html">Home</a></li>
+                    <li><a class="home" href="home.php">Home</a></li>
                     <li><a class="button-2" href="post.php">Write a Blog</a></li>
                 </ul>
             </nav>
